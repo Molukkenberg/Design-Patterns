@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Builder\RefactoringGuru-Builder-Pattern.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Builder\RefactoringGuru-Builder-Pattern.png" />
+  </ItemGroup>
+
 </Project>
