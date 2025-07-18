@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Builder;
 
-public static class Example
+public static class BuilderExample
 {
     public static void RunWithBuilder()
     {
