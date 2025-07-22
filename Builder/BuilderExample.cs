@@ -2,9 +2,9 @@
 
 public static class BuilderExample
 {
-    public static void RunWithBuilder()
+    public static void RunWithDirector()
     {
-        ConcreteBuilder builder = new();
+        IBuilder builder = new ConcreteBuilder();
         Director director = new(builder);
 
         director.Construct();
@@ -15,7 +15,7 @@ public static class BuilderExample
 
     public static void RunWithoutDirector()
     {
-        ConcreteBuilder builder = new();
+        IBuilder builder = new ConcreteBuilder();
         builder.BuildPartA();
         builder.BuildPartB();
 

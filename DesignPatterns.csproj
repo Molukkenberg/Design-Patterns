@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EditorConfigFiles Remove="C:\myRepos\DesignPatterns\.editorconfig" />
     <None Remove="Builder\RefactoringGuru-Builder-Pattern.png" />
+    <None Include="C:\myRepos\DesignPatterns\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
