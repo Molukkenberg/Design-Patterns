@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Builder\RefactoringGuru-Builder-Pattern.png" />
+	<Resource Include="Builder\RefactoringGuru-Builder-Pattern.png" />
+    <Resource Include="Prototype\RefactoringGuru-Prototype-Pattern.png" />
   </ItemGroup>
 
 </Project>
