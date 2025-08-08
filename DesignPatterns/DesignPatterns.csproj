@@ -8,13 +8,17 @@
 
   <ItemGroup>
     <EditorConfigFiles Remove="C:\myRepos\DesignPatterns\.editorconfig" />
-    <None Remove="Builder\RefactoringGuru-Builder-Pattern.png" />
+    <None Remove="Creational Patterns\Builder\RefactoringGuru-Builder-Pattern.png" />
+    <None Remove="Structural Patterns\Adapter\RefactoringGuru-ClassAdapter.png" />
+    <None Remove="Structural Patterns\Adapter\RefactoringGuru-ObjectAdapter.png" />
     <None Include="C:\myRepos\DesignPatterns\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-	<Resource Include="Builder\RefactoringGuru-Builder-Pattern.png" />
-    <Resource Include="Prototype\RefactoringGuru-Prototype-Pattern.png" />
+	<Resource Include="Creational Patterns\Builder\RefactoringGuru-Builder-Pattern.png" />
+    <Resource Include="Creational Patterns\Prototype\RefactoringGuru-Prototype-Pattern.png" />
+    <Resource Include="Structural Patterns\Adapter\RefactoringGuru-ClassAdapter.png" />
+    <Resource Include="Structural Patterns\Adapter\RefactoringGuru-ObjectAdapter.png" />
   </ItemGroup>
 
 </Project>
