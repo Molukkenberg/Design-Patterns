@@ -3,7 +3,7 @@
 namespace DesignPatterns.Tests;
 
 [TestClass]
-public class COR_Tests
+public class ChainOfResponsibility_Tests
 {
     [TestMethod]
     public void Chain_Handles_Known_Requests_And_Leaves_Unknown_Unhandled()
