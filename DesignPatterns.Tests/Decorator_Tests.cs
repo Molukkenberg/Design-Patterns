@@ -3,6 +3,7 @@
 namespace DesignPatterns.Tests;
 
 [TestClass]
+[DoNotParallelize]
 public class Decorator_Tests
 {
     [TestMethod]
